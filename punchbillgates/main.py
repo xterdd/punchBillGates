@@ -2,6 +2,8 @@ from tkinter import *
 
 tk = Tk()
 tk.title("Happy Bill Gates")
+tk.resizable(0, 0)
+tk.wm_attributes("-topmost", 1)
 canvas = Canvas(tk, width=300, height=300)
 canvas.pack()
 f = PhotoImage(file='./res/f.gif')
