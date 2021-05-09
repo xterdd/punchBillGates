@@ -18,6 +18,7 @@ def punch(event):
 
 canvas.bind_all('<Button-1>', punch)
 canvas.bind_all('<Button-3>', dont_punch)
+input()
 
 
 
